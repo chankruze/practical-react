@@ -2,6 +2,7 @@ import React from 'react'
 import './App.css'
 import { IconContext } from 'react-icons'
 import IconsContainer from './components/IconsContainer'
+import ToastNotificationContainer from './components/ToastNotificationContainer'
 
 const ICON_CONTEXT = {
   color: 'blue',
@@ -14,6 +15,8 @@ function App() {
       <div className="App">
         {/* Icons */}
         <IconsContainer />
+        {/* Toast Notifications */}
+        <ToastNotificationContainer/>
       </div>
     </IconContext.Provider>
   );
