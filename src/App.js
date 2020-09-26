@@ -3,6 +3,7 @@ import './App.css'
 import { IconContext } from 'react-icons'
 import IconsContainer from './components/IconsContainer'
 import ToastNotificationContainer from './components/ToastNotificationContainer'
+import ModalContainer from './components/ModalContainer'
 
 const ICON_CONTEXT = {
   color: 'blue',
@@ -16,7 +17,9 @@ function App() {
         {/* Icons */}
         <IconsContainer />
         {/* Toast Notifications */}
-        <ToastNotificationContainer/>
+        <ToastNotificationContainer />
+        {/* Modal Container */}
+        <ModalContainer />
       </div>
     </IconContext.Provider>
   );
