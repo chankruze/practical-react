@@ -1,0 +1,45 @@
+/*
+Author: chankruze (chankruze@geekofia.in)
+Created: Sun Sep 27 2020 21:08:33 GMT+0530 (India Standard Time)
+
+Copyright (c) Geekofia 2020 and beyond
+*/
+
+.wrapper {
+  padding: 0;
+  margin: 0;
+  padding: 8px 16px 8px 16px;
+  margin-top: 1rem;
+  font-size: 2rem;
+  color: #fff;
+  background-color: rebeccapurple;
+  border-bottom: 5px solid orange;
+  display: inline-block;
+}
+
+.advanceWrapper {
+  color: #000000;
+  background-color: #ff5eae;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  border-top: 5px solid #000000;
+  display: inline-block;
+  text-transform: capitalize;
+}
+
+.advanceWrapper .btn {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  padding: 8px 15px 8px 15px;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  color: #fff;
+  font-family: inherit;
+  background-color: rebeccapurple;
+  text-transform: capitalize;
+}
