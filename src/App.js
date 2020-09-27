@@ -6,6 +6,7 @@ import ToastNotificationContainer from './components/ToastNotificationContainer'
 import ModalContainer from './components/ModalContainer'
 import TooltipContainer from './components/TooltipContainer'
 import CountUpContainer from './components/CountUpContainer'
+import IdleTimerContainer from './components/IdleTimerContainer'
 
 const ICON_CONTEXT = {
   color: 'blue',
@@ -26,6 +27,8 @@ function App() {
         <TooltipContainer />
         {/* CountUp Container */}
         <CountUpContainer />
+        {/* Idle Timer Container */}
+        <IdleTimerContainer />
       </div>
     </IconContext.Provider>
   );
