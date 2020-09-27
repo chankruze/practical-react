@@ -4,6 +4,7 @@ import { IconContext } from 'react-icons'
 import IconsContainer from './components/IconsContainer'
 import ToastNotificationContainer from './components/ToastNotificationContainer'
 import ModalContainer from './components/ModalContainer'
+import TooltipContainer from './components/TooltipContainer'
 
 const ICON_CONTEXT = {
   color: 'blue',
@@ -20,6 +21,8 @@ function App() {
         <ToastNotificationContainer />
         {/* Modal Container */}
         <ModalContainer />
+        {/* Tooltip Container */}
+        <TooltipContainer/>
       </div>
     </IconContext.Provider>
   );
