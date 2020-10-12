@@ -7,6 +7,7 @@ import ModalContainer from "./components/ModalContainer";
 import TooltipContainer from "./components/TooltipContainer";
 import CountUpContainer from "./components/CountUpContainer";
 import IdleTimerContainer from "./components/IdleTimerContainer";
+import ColorPicker from "./components/ColorPicker";
 
 const ICON_CONTEXT = {
   color: "blue",
@@ -29,6 +30,8 @@ function App() {
         <CountUpContainer />
         {/* Idle Timer Container */}
         <IdleTimerContainer />
+        {/* Color Picker */}
+        <ColorPicker />
       </div>
     </IconContext.Provider>
   );
