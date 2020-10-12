@@ -8,6 +8,7 @@ import TooltipContainer from "./components/TooltipContainer";
 import CountUpContainer from "./components/CountUpContainer";
 import IdleTimerContainer from "./components/IdleTimerContainer";
 import ColorPicker from "./components/ColorPicker";
+import CreditCard from "./components/CreditCard";
 
 const ICON_CONTEXT = {
   color: "blue",
@@ -19,19 +20,22 @@ function App() {
     <IconContext.Provider value={ICON_CONTEXT}>
       <div className="App">
         {/* Icons */}
-        <IconsContainer />
+        {/* <IconsContainer /> */}
         {/* Toast Notifications */}
-        <ToastNotificationContainer />
+        {/* <ToastNotificationContainer /> */}
         {/* Modal Container */}
-        <ModalContainer />
+        {/* <ModalContainer /> */}
         {/* Tooltip Container */}
-        <TooltipContainer />
+        {/* <TooltipContainer /> */}
         {/* CountUp Container */}
-        <CountUpContainer />
+        {/* <CountUpContainer /> */}
         {/* Idle Timer Container */}
-        <IdleTimerContainer />
+        {/* <IdleTimerContainer /> */}
         {/* Color Picker */}
-        <ColorPicker />
+        {/* <ColorPicker /> */}
+        
+        {/* Credit Card UI */}
+        <CreditCard />
       </div>
     </IconContext.Provider>
   );
