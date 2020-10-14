@@ -1,14 +1,15 @@
 import React from "react";
 import "./App.css";
 import { IconContext } from "react-icons";
-import IconsContainer from "./components/IconsContainer";
-import ToastNotificationContainer from "./components/ToastNotificationContainer";
-import ModalContainer from "./components/ModalContainer";
-import TooltipContainer from "./components/TooltipContainer";
-import CountUpContainer from "./components/CountUpContainer";
-import IdleTimerContainer from "./components/IdleTimerContainer";
-import ColorPicker from "./components/ColorPicker";
-import CreditCard from "./components/CreditCard";
+// import IconsContainer from "./components/IconsContainer";
+// import ToastNotificationContainer from "./components/ToastNotificationContainer";
+// import ModalContainer from "./components/ModalContainer";
+// import TooltipContainer from "./components/TooltipContainer";
+// import CountUpContainer from "./components/CountUpContainer";
+// import IdleTimerContainer from "./components/IdleTimerContainer";
+// import ColorPicker from "./components/ColorPicker";
+// import CreditCard from "./components/CreditCard";
+import DatePickerComp from "./components/DatePickerComp";
 
 const ICON_CONTEXT = {
   color: "blue",
@@ -33,9 +34,10 @@ function App() {
         {/* <IdleTimerContainer /> */}
         {/* Color Picker */}
         {/* <ColorPicker /> */}
-        
         {/* Credit Card UI */}
-        <CreditCard />
+        {/* <CreditCard /> */}
+        {/* Date Picker */}
+        <DatePickerComp />
       </div>
     </IconContext.Provider>
   );
