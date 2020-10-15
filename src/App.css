@@ -2,3 +2,15 @@
   text-align: center;
   margin-bottom: 10rem;
 }
+
+.charts {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1000px;
+}
+
+.charts > * {
+  margin-top: 2rem;
+}

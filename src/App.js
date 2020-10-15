@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import { IconContext } from "react-icons";
-import LoadingIndicators from "./components/LoadingIndicators";
+
 // import IconsContainer from "./components/IconsContainer";
 // import ToastNotificationContainer from "./components/ToastNotificationContainer";
 // import ModalContainer from "./components/ModalContainer";
@@ -12,6 +12,10 @@ import LoadingIndicators from "./components/LoadingIndicators";
 // import CreditCard from "./components/CreditCard";
 // import DatePickerComp from "./components/DatePickerComp";
 // import VideoPlayerComp from "./VideoPlayerComp";
+// import LoadingIndicators from "./components/LoadingIndicators";
+import LineChart from "./components/charts/LineChart";
+import BarChart from "./components/charts/BarChart";
+import DoughnutChart from "./components/charts/DoughnutChart";
 
 const ICON_CONTEXT = {
   color: "blue",
@@ -41,7 +45,12 @@ function App() {
         {/* Date Picker */}
         {/* <DatePickerComp /> */}
         {/* <VideoPlayerComp /> */}
-        <LoadingIndicators />
+        {/* <LoadingIndicators /> */}
+        <div className="charts">
+          <LineChart />
+          <BarChart />
+          <DoughnutChart />
+        </div>
       </div>
     </IconContext.Provider>
   );
