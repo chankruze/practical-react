@@ -9,7 +9,8 @@ import { IconContext } from "react-icons";
 // import IdleTimerContainer from "./components/IdleTimerContainer";
 // import ColorPicker from "./components/ColorPicker";
 // import CreditCard from "./components/CreditCard";
-import DatePickerComp from "./components/DatePickerComp";
+// import DatePickerComp from "./components/DatePickerComp";
+import VideoPlayerComp from "./VideoPlayerComp";
 
 const ICON_CONTEXT = {
   color: "blue",
@@ -37,7 +38,8 @@ function App() {
         {/* Credit Card UI */}
         {/* <CreditCard /> */}
         {/* Date Picker */}
-        <DatePickerComp />
+        {/* <DatePickerComp /> */}
+        <VideoPlayerComp />
       </div>
     </IconContext.Provider>
   );
